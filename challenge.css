@@ -1,0 +1,25 @@
+.container {
+  width: 500px;
+  height: 650px;  
+  margin: auto;
+  background-color: black;
+  }
+table, th, td
+{
+  margin-left: 10%;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+th, td
+{
+  padding: 10px;
+    background-color: white;
+  text-align: center;
+}
+
+table
+{
+  border-spacing: 15px;
+    background-color: black;
+}

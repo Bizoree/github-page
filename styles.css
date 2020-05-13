@@ -1,0 +1,52 @@
+.box_container {
+    width:325px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (350px, 1fr));
+    grid-gap: 15px;
+    margin: 0px;
+    padding: 20px;
+    float: left
+   
+}
+
+.content {
+    border-color: #231844;
+    border-style:solid;
+    border-radius: 10px;
+    box-shadow: 12px 10px 10px #231844 
+    
+}
+.image_box {
+    position:relative;
+    
+}
+.information {
+    height: auto
+    text-align: left;
+    padding: 4px 10px;
+    font-family: sans-serif
+            
+}
+.socialicons {
+   float: left;
+    
+    
+}
+
+.readmorebuttons {
+    text-align: center;
+    margin-left: 200px;
+    font-size: 12px;
+    border-color: #a52b3a;
+    border-style: solid;
+    border-radius: 4px;
+    
+}
+
+
+.readmorebuttons:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  
+}
